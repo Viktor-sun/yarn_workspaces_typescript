@@ -1,0 +1,12 @@
+{
+  "name": "workspaces_typescript",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn workspace @workspaces_typescript/app run start"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
